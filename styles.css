@@ -1,0 +1,166 @@
+* {
+  color: white;
+  margin: 0%;
+  position: relative;
+}
+
+.main {
+  display: inline-block;
+  float: right;
+  margin-left: 15%;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 85%;
+  height: 90%;
+  position: fixed;
+  overflow: auto;
+  background-color: rgb(31, 29, 29);
+}
+
+#arrow {
+  height: 35px;
+  margin: 15px;
+  margin-left: 20px;
+  background-color: inherit;
+}
+
+#logo {
+  height: 40px;
+  margin: 25px;
+}
+
+.nav {
+  float: left;
+  width: 15%;
+  height: 90%;
+  position: fixed;
+  overflow: auto;
+  background-color: black;
+}
+
+h1 {
+  margin: 20px;
+  background-color: inherit;
+}
+
+.rec {
+  height: 80px;
+  width: 300px;
+  margin: 8px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgb(48, 47, 47);
+}
+
+#recgroup {
+  margin-left: 15px;
+}
+
+.rec img {
+  height: inherit;
+  border-radius: inherit;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  position: absolute;
+}
+
+#heart {
+  height: 25px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.rec h3 {
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+  font-size: medium;
+}
+
+h2 {
+  margin: 25px;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(31, 29, 29);
+  border-top: 1px solid white;
+}
+
+#play {
+  height: 60px;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+
+#options {
+  height: 25px;
+  float: right;
+  padding-top: 25px;
+  padding-right: 30px;
+}
+
+.playing {
+  height: 50px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 12px;
+  background-color: inherit;
+  float: left;
+}
+
+.playing img {
+  height: inherit;
+}
+
+.playing h3 {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+
+.navp {
+  height: 25px;
+  margin: 5px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.navs {
+  display: block;
+  height: 40px;
+  border-radius: 4%;
+  margin: 10px;
+  background-color: inherit;
+}
+
+.navt {
+  position: absolute;
+  display: inline;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+#profile {
+  position: relative;
+  float: right;
+  height: 30px;
+  margin-right: 50px;
+  margin-top: 15px;
+  border-radius: 15%;
+}
+
+#profileimg {
+  position: absolute;
+  height: 25px;
+  border-radius: 50%;
+  right: 60px;
+  padding-top: 15px;
+}
