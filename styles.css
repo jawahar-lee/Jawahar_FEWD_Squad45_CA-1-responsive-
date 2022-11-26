@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+
 * {
   color: white;
   margin: 0%;
   position: relative;
+  font-family: 'Solway', serif;
 }
 
 .main {
@@ -14,7 +17,7 @@
   height: 90%;
   position: fixed;
   overflow: auto;
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(24, 23, 23);
 }
 
 #arrow {
@@ -148,19 +151,132 @@ h2 {
   margin-bottom: 5px;
 }
 
-#profile {
+#profilel {
   position: relative;
   float: right;
-  height: 30px;
+  height: 35px;
+  width: 30px;
   margin-right: 50px;
   margin-top: 15px;
-  border-radius: 15%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+#profiler {
+  position: relative;
+  float: right;
+  height: 35px;
+  width: 30px;
+  margin-right: 80px;
+  margin-top: 15px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#profilem {
+  position: absolute;
+  float: right;
+  height: 35px;
+  width: 65px;
+  margin-right: 80px;
+  margin-top: 15px;
+  right: 30px;
 }
 
 #profileimg {
   position: absolute;
-  height: 25px;
+  right: 118px;
+  height: 32px;
+  width: 30px;
+  margin-right: 50px;
+  margin-top: 17px;
   border-radius: 50%;
-  right: 60px;
-  padding-top: 15px;
+}
+
+#profiletext {
+  display: inline;
+  position: absolute;
+  margin-right: 50px;
+  margin-top: 22px;
+  right: 70px;
+}
+
+#profilearrow {
+  height: 20px;
+  display: inline;
+  position: absolute;
+  margin-right: 50px;
+  margin-top: 22px;
+  right: 50px;
+}
+
+#flexboxd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mp {
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 90px;
+  padding-left: 100px;
+}
+
+.ro {
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#playerimg {
+  width: 50px;
+  margin: 12px;
+  display: inline-block;
+}
+
+#songname {
+  position: absolute;
+  bottom: 30px;
+  display: inline-block;
+}
+
+#artist {
+  font-size: smaller;
+  position: absolute;
+  bottom: 15px;
+  left: 75px;
+  display: inline-block;
+}
+
+#heart1 {
+  height: 25px;
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  left: 150px;
+}
+
+#flexboxm {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flexm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 250px;
+  background-color: rgb(31, 30, 30);
+}
+
+.podcast {
+  height: 160px;
+  margin: 20px;
+}
+
+h4 {
+  margin-left: 22px;
 }
