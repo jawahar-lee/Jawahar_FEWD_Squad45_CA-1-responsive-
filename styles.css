@@ -10,7 +10,7 @@
 .main {
   display: inline-block;
   float: right;
-  margin-left: 15%;
+  margin-left: 14%;
   padding-left: 10px;
   padding-right: 10px;
   width: 85%;
@@ -34,7 +34,8 @@
 
 .nav {
   float: left;
-  width: 15%;
+  width: 14%;
+  min-width: 130px;
   height: 90%;
   position: fixed;
   overflow: auto;
@@ -51,7 +52,7 @@ h1 {
 .rec {
   height: 80px;
   width: 300px;
-  margin: 8px;
+  margin: 5px;
   display: inline-block;
   border-radius: 5px;
   background-color: rgb(48, 47, 47);
@@ -138,16 +139,19 @@ h2 {
 }
 
 .navs {
-  display: block;
+  display: flex;
   height: 40px;
   border-radius: 4%;
   margin: 10px;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: inherit;
 }
 
 .navt {
   position: absolute;
   display: inline;
+  margin-left: 40px;
   padding-left: 15px;
   padding-top: 10px;
   margin-bottom: 5px;
@@ -292,5 +296,33 @@ h4 {
 
 .flexn {
   margin-bottom: 20px;
+}
+
+@media all and (max-width: 1100px) {
+  .flexd {
+    display: none;
+  }
+  .mp {
+    display:flex;
+    padding: 0%;
+    margin-left: 0%;
+  }
+  #flexboxd {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .flexm {
+    margin: 10px;
+  }
+  .main {
+    box-sizing: border-box;
+    margin-left: 130px;
+  }
+  .flexm {
+    margin-right: 50px;
+  }
+
 }
 
